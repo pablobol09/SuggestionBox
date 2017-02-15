@@ -1,0 +1,29 @@
+
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+
+<h1 class="nightc"> {{night.title}} </h1>
+<br>
+<br>
+<br>
+<div class="comments" ng-repeat="comment in night.comments | orderBy: '-upvotes'" >
+
+<h2 class="title" id="spin">{{comment.body}} </h2> 
+<!-- UPVOTES COMMENTS-->
+<p>
+<span class="glyphicon glyphicon-plus-sign" id="spini" ng-click="upVote(comment)"></span> 
+Upvotes: {{comment.upvotes}}
+</p>
+
+</div>
+<!-- USER INPUT FORM -->
+
+<form ng-submit="addComment()" style="margin-top: 50px">
+<h3 class="title"> Submit Your Comment </h3>
+<div class="form-group">
+<input type="text" class="form-control" placeholder="Comment here" ng-model="body"></input>
+</div>
+<button type="submit" class="btn btn-primary" id="title">Comment</button>
+</form>
+
+</div>

@@ -1,0 +1,106 @@
+
+
+
+
+.body {
+	background-color: #001a33;
+	color: white;
+	font-family: 'Roboto';
+	font-weight: 100;
+
+}
+
+.night {
+	font-size: 24px;
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	padding-top: 3%;
+	
+
+
+
+}
+
+.nightc {
+	font-size: 34px;
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	padding-top: 3%;
+	
+
+
+
+}
+
+
+
+
+
+
+.title {
+	
+	text-align: center;
+	
+	
+	margin: auto;
+	
+
+}
+
+#spini {
+
+	padding-bottom: 3%;
+	
+
+}
+
+#title {
+	margin-left: 46.5%;
+
+}
+
+.props {
+
+	border-bottom: 1px solid rgba(255,255,255,.25);
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 3%;
+	width: 60%;
+	margin: auto;
+
+}
+
+.form-control {
+	width: 35%;
+	margin: auto;
+}
+
+.form {
+	text-align: center;
+}
+
+.all {
+	background-color: #001a33;
+	font-family: 'Roboto';
+	font-weight: 100;
+	color: white;
+
+}
+
+.comments {
+	
+	text-align: center;
+}
+
+#spin {
+	font-size: 18px;
+	
+}
+
+.ss {
+
+}
+
+
