@@ -1,0 +1,37 @@
+
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+<div class="body">
+<br>
+<br>
+<h1 class="title"> <img src="img/bulb.png"> Suggestion Box</h1>
+<br>
+
+<div ng-repeat="night in nights | orderBy: '-upvotes'">
+<h1 class="night"> {{ night.title }} </h1>
+
+
+<!-- UPVOTES -->
+<p class="props">
+<span class="glyphicon glyphicon-plus-sign" ng-click="upVote(night)"></span> Upvotes: {{night.upvotes}} <a href="#!/suggestion/{{night.id}}">Comments</a>
+</p>
+</div>
+
+<!-- USER INPUT FORM -->
+
+<br>
+<form ng-submit="addSuggestion()" style="margin-top: 50px" class="form">
+<h3 class="ss"> Submit Your Suggestion </h3>
+<div class="form-group">
+<input type="text" class="form-control" placeholder="Great ideas here" ng-model="title"></input>
+</div>
+<button type="submit" class="btn btn-primary">Suggest</button>
+</form>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+
