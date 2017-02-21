@@ -27,7 +27,7 @@
 18 verbose stack     at maybeClose (internal/child_process.js:877:16)
 18 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
 19 verbose pkgid angular-seed@0.0.0
-20 verbose cwd /Users/Pablo/Desktop/Business/Code/suggestion_box/agile-stream-97028
+20 verbose cwd /Users/Pablo/Desktop/Business/Code/suggestion_box/agile-stream-97028/app
 21 error Darwin 14.5.0
 22 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "start"
 23 error node v6.9.5
